@@ -16,8 +16,65 @@ h3{
    background:#f4f6fb;  
 }
 
-nav a {
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:#f4f6fb;
+}
+
+.dashboard{
+    display:flex;
+}
+
+.sidebar{
+    width:260px;
+    background:#13294B;
+    color:white;
+    min-height:100vh;
+    padding:30px;
+}
+
+.sidebar h2{
+    margin-bottom:35px;
+}
+
+.sidebar h3{
+    margin-top:30px;
+    font-size:.9rem;
+    color:#8fb7ff;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:10px 0;
+}
+
+.sidebar a:hover{
+    color:#4da6ff;
+}
+
+.content{
+    flex:1;
+    padding:50px;
+}
+
+.cards{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin-top:0;
 }
