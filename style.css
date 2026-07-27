@@ -50,9 +50,12 @@ header nav a {
     color:#111827;
 }
 
-img {
-    width: 300px;
+.hero-logo {
+    width: 350px;
     height: auto;
     display: block;
-    margin: 30px auto;
+    margin: 40px auto;
 }
+
+
+
