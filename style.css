@@ -49,3 +49,10 @@ header nav a {
     line-height:1.4;
     color:#111827;
 }
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
