@@ -1,20 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 body{
-    margin:2;
+    margin:0;
     font-family:Poppins,sans-serif;
     background:#f4f6fb;
-}
-
-h2{
-    margin:5;
-    font-family:Poppins,sans-serif;
-    background:#f4f6fb;
-}
-
-h3{
-   margin:9;
-   font-family:Poppins,sans-serif;
-   background:#f4f6fb;  
 }
 
 .dashboard{
@@ -23,11 +11,18 @@ h3{
 
 .sidebar{
     width:260px;
+    background:#13294B;
     color:white;
     min-height:100vh;
+    padding:30px;
+}
+
+.sidebar h2{
+    margin-bottom:35px;
 }
 
 .sidebar h3{
+    margin-top:30px;
     font-size:.9rem;
     color:#8fb7ff;
 }
@@ -46,4 +41,8 @@ h3{
 .content{
     flex:1;
     padding:50px;
+}
+
+h2{
+    margin:2;
 }
