@@ -59,10 +59,11 @@ header nav a {
 }
 
 h3 {
-    margin:3px;
+    margin:5px;
     color:#1e3a8a;
 }
 
 h4{
-    margin:8px;
+    margin:12px;
+    margin-bottom: 7px
 }
