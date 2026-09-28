@@ -67,15 +67,3 @@ h4{
     margin:12px;
     margin-bottom: 7px
 }
-
-##scrolleffect
-.scroll-section {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
-.scroll-section.show {
-    opacity: 1;
-    transform: translateY(0);
-}
