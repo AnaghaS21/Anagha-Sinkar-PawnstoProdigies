@@ -67,3 +67,15 @@ h4{
     margin:12px;
     margin-bottom: 7px
 }
+
+.scroll-reveal {
+  margin: 0 0 1.4rem;
+}
+
+.scroll-reveal-text {
+  font: inherit;
+}
+
+.word {
+  display: inline-block;
+}
