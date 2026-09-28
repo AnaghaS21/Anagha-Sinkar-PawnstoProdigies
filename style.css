@@ -68,14 +68,14 @@ h4{
     margin-bottom: 7px
 }
 
-.scroll-reveal {
-  margin: 0 0 1.4rem;
+##scrolleffect
+.scroll-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-.scroll-reveal-text {
-  font: inherit;
-}
-
-.word {
-  display: inline-block;
+.scroll-section.show {
+    opacity: 1;
+    transform: translateY(0);
 }
